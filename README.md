@@ -1,9 +1,8 @@
 # Dashboard UI with shadcn/ui
 
 ## Demo & Live Links
-
 - **Demo Video**: [Watch Demo](https://drive.google.com/file/d/1ZEvu5YhqvIV8TBpWqFo-PAf0ZGW7Tzig/view?usp=sharing)
-- **Live Demo**: [View Live Demo](https://dashboard-ui-creatiwise.vercel.app/)
+- **Live Demo**: [View Live Demo](https://dashboard-ui-shadcn.vercel.app) <!-- Replace with your actual deployed URL -->
 
 A responsive Dashboard UI built with Next.js and shadcn/ui components, featuring a sidebar navigation and data table section.
 
@@ -34,42 +33,34 @@ A responsive Dashboard UI built with Next.js and shadcn/ui components, featuring
 ### Installation
 
 1. Clone the repository
-   ```
-   git clone https://github.com/karthikks26/dashboard-ui-Creatiwise
-   cd dashboard-ui
-  ```
+\`\`\`bash
+git clone https://github.com/yourusername/dashboard-ui.git
+cd dashboard-ui
+\`\`\`
 
 2. Install dependencies
-   ```
-   npm install
-
+\`\`\`bash
+npm install
 # or
-
 yarn install
-
 # or
-
 pnpm install
-```
+\`\`\`
 
 3. Install shadcn/ui components
-   ```
-   npx shadcn@latest init
-   npx shadcn@latest add sidebar table tabs input button checkbox dropdown-menu avatar select skeleton
-  ```
+\`\`\`bash
+npx shadcn@latest init
+npx shadcn@latest add sidebar table tabs input button checkbox dropdown-menu avatar select skeleton
+\`\`\`
 
 4. Run the development server
-   ```
-   npm run dev
-
+\`\`\`bash
+npm run dev
 # or
-
 yarn dev
-
 # or
-
 pnpm dev
-```
+\`\`\`
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
